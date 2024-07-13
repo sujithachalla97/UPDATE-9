@@ -3,7 +3,7 @@
 
 .execom {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .execom h1 {
@@ -477,7 +477,7 @@ section {
     transform: translateY(0);
 }
 
-/* ------------- navbar --------------*/
+
 
 
 
@@ -790,7 +790,7 @@ section{
 .head6{
     font-size: 30px;
 }
-
+/* ------------- navbar --------------*/
 
 @media (max-width: 1090px) {
     #menu-icon {
@@ -810,7 +810,7 @@ section{
        left:60%;
        width:40%;
         z-index: 1;
-        background-color:blue;
+          background: #0F1156;
         
        display:none;
       
@@ -872,6 +872,16 @@ section{
        position:absolute;
         top:6rem;
        left:50%;
-       width:45%;
+       width:50%;
+    }
+}
+@media (max-width: 576px) and (min-width: 400px){
+    .navbar{
+
+       position:absolute;
+        top:6rem;
+       left:50%;
+       width:50%;
+       right:0;
     }
 }
